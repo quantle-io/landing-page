@@ -49,35 +49,7 @@ function Footer() {
             </div>
           </div>
 
-          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Products</h6>
-            <ul className="text-sm">
-              <li className="mb-2">
-                <Link to="/institutional" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Institutional Partnerships</Link>
-              </li>
-            </ul>
-          </div>
-
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
-            <ul className="text-sm">
-              <li className="mb-2">
-                <Link to="/developers" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Developers</Link>
-              </li>
-
-            </ul>
-          </div>
-
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Company</h6>
-            <ul className="text-sm">
-              <li className="mb-2">
-                <Link to="/careers" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Careers</Link>
-              </li>
-            </ul>
-          </div> */}
-
-          {/* 5th block */}
+          
           <div className="sm:col-span-6 px-4">
             <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
             <p className="text-sm text-gray-600 mb-4">Get the latest news and articles to your inbox every month.</p>
