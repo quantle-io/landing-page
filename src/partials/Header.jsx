@@ -52,7 +52,7 @@ function Header() {
           <nav className="cursor-pointer hidden lg:flex flex-grow lg:w-1/3">
             <ul className="cursor-pointer flex flex-grow justify-end flex-wrap items-center hidden lg:block">
               <li className="">
-                <a href="https://quantle.io/" target="_blank" className="drop-shadow-2xl float-right btn font-medium text-black ml-3 bg-blue-500 text-white hover:bg-blue-500 hover:drop-shadow-sm rounded-lg !border-0 !hover:border-0 !normal-case">
+                <a href="https://app.quantle.io/" target="_blank" className="drop-shadow-2xl float-right btn font-medium text-black ml-3 bg-blue-500 text-white hover:bg-blue-500 hover:drop-shadow-sm rounded-lg !border-0 !hover:border-0 !normal-case">
                   <span>Go to the app</span>
                   <svg className="w-3 h-3 fill-current text-400 flex-shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
