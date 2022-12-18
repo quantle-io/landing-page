@@ -52,23 +52,21 @@ function Footer() {
           
           <div className="sm:col-span-6 px-4">
             <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
-            <p className="text-sm text-gray-600 mb-4">Get the latest news and articles to your inbox every month.</p>
+            <p className="text-sm text-gray-600 mb-4">Get curated market updates on the daily.</p>
             <form onSubmit={handleSubmit}>
               <div className="flex flex-wrap mb-4">
                 <div className="w-full">
                   <label className="block text-sm sr-only" htmlFor="text">Email</label>
-                  <div className="relative flex items-center max-w-xs">
-                    <input id="email" name="email" type="email" className="form-input w-full text-gray-800 px-3 py-2 pr-12 text-sm" placeholder="Your email" required />
+                  <div className="relative flex items-center w-full md:w-3/4">
+                    <input autoComplete="false" id="email" name="email" type="email" className="m-0 form-input w-full font-medium text-lg text-gray-800 px-3 py-2 pr-12" placeholder="Join the newsletter" required />
                     <button type="submit" className="absolute inset-0 left-auto" aria-label="Subscribe">
                       <span className="absolute inset-0 right-auto w-px -ml-px my-2 bg-gray-300" aria-hidden="true"></span>
-                      <svg className="w-3 h-3 fill-current text-blue-600 mx-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
-                      </svg>
+                      { !done ?
+                      <p className="mx-2"> ➡️ </p>:
+                      <p className="mx-2"> ✅ </p>
+                      }
                     </button>
                   </div>
-                  { done &&
-                    <p className="mt-2 text-blue-600 text-sm">Thanks for subscribing!</p>
-                  }
                 </div>
               </div>
             </form>

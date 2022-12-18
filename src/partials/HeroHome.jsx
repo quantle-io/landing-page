@@ -51,7 +51,7 @@ function HeroHome() {
                       <p className="mx-2"> ✅ </p>
                       }
                     </button>
-                  </div>                  
+                  </div>
                 </div>
               </div>
             </form>
