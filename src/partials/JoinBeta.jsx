@@ -13,7 +13,7 @@ function JoinBeta() {
             <h1 className="h1 mb-4 self-center">We're in  
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500"> beta</span>
             </h1>
-              <p className="text-xl text-600">You're one click away from the next generation of automated investing!</p>
+              <p className="text-xl text-600">You're one click away from powerful investor tools!</p>
               <Link to="/" className="w-full flex justify-center">
                 <img className="w-48 h-48" src={Logo} alt="Quantle"></img>
               </Link>
