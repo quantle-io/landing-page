@@ -1,0 +1,69 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon";
+
+const features = [
+  {
+    title: "Analyzed Market Data",
+    description:
+      "We offer post-processed data from multiple sources to provide you with the most accurate and up-to-date information.",
+    icon: "bx:bxs-briefcase",
+  },
+  {
+    title: "API Access",
+    description:
+      "Quantle offers custom API access to meet advanced needs.",
+    icon: "bx:bxs-window-alt",
+  },
+  {
+    title: "Custom Solutions",
+    description:
+      "Hedge fund? Family office? We can build custom solutions ranging from data feeds to infrastructure to quantitative models.",
+    icon: "bx:bxs-data",
+  },
+  {
+    title: "Secure Broker Integration",
+    description:
+      "Quantle integates with Plaid to give you highly customized investment insights.",
+    icon: "bx:bxs-bot",
+  },
+  {
+    title: "Affordable",
+    description:
+      "Quantle builds for everyone: no hidden fees, tiered pricing.",
+    icon: "bx:bxs-file-find",
+  },
+  {
+    title: "Community First",
+    description:
+      "Quantle builds open-source tools to create transparency and strengthen the community.",
+    icon: "bx:bxs-user",
+  },
+];
+---
+
+<div class="mt-16 md:mt-0">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Everything you need to build a portfolio
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    Quantle is a suite of tools that helps you build wealth over time. 
+    It combines advanced financial information, open-source community, and robust tools to help you make better decisions.  
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  {
+    features.map((item) => (
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+          <Icon class="text-white" name={item.icon} />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>
